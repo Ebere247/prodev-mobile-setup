@@ -1,5 +1,14 @@
-import { Text, View, StyleSheet, Image, ImageBackground, Dimensions, TouchableOpacity } from "react-native";
-import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
+import {
+  Dimensions,
+  Image,
+  ImageBackground,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+} from "react-native";
+import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
+
 export default function Index() {
   return (
     <SafeAreaProvider>
@@ -45,8 +54,7 @@ export default function Index() {
   );
 }
 
-
-  const styles = StyleSheet.create({
+const styles = StyleSheet.create({
   container: {
     flex: 1,
   },
@@ -105,7 +113,3 @@ export default function Index() {
     paddingHorizontal: 20,
   },
 });
-
-    </SafeAreaView>  
-  </SafeAreaProvider>
-  

@@ -1,11 +1,11 @@
 import {
-  Text,
-  View,
-  StyleSheet,
+  Dimensions,
   Image,
   ImageBackground,
-  Dimensions,
+  StyleSheet,
+  Text,
   TouchableOpacity,
+  View,
 } from "react-native";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 export default function Index() {

@@ -1,6 +1,7 @@
 // prettier-ignore
 import { Dimensions, Image, ImageBackground, StyleSheet, Text, TouchableOpacity, View } from "react-native";
-import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
+import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
+{/* prettier-ignore */}
 export default function Index() {
   return (
     <SafeAreaProvider>
